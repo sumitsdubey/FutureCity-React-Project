@@ -1,0 +1,43 @@
+.box{
+    filter: drop-shadow(10px 10px 20px rgba(204, 202, 202, 0.594));
+    perspective: -200px;
+    animation: anim 5s ease-in-out infinite;
+    transition: 1s;   
+}
+.exp_btn{
+    transition: 0.4s;
+}
+.background{
+    background-image: url(../images/bg-new.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@keyframes anim {
+    0%{
+        transform: rotateX(90deg);
+        box-shadow :(10px 10px 20px rgb(204, 202, 202));
+    }
+    25%{
+        transform: rotateY(90deg);
+        box-shadow :(10px 10px 20px rgb(255, 29, 29));
+    }
+    50%{
+        transform: rotateX(90deg);
+        box-shadow :(10px 10px 20px rgb(255, 32, 181));
+    }
+    75%{
+        transform: rotateY(-90deg);
+        box-shadow :(10px 10px 20px rgb(25, 160, 250));
+    }
+    90%{
+        transform: rotateY(-90deg);
+        box-shadow :(10px 10px 20px rgb(103, 255, 123));
+    }
+    100%{
+        transform: rotateY(-90deg);
+        filter: drop-shadow(10px 10px 20px rgba(204, 202, 202, 0.594));
+    }
+
+}

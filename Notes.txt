@@ -1,0 +1,12 @@
+This Website only Compatible with Laptop or Big Screen, it is not responsive for Mobile View.
+
+
+Needed Dependencies:
+
+1. React Router Dom :  npm install react-router-dom,
+2. GSAP : npm install @gsap/react
+3. GSAP : npm install gsap
+4. Scroll-Trigger : npm install react-scroll-trigger
+5. Locomotive: npm install locomotive-scroll@beta
+6. install tailwinds :  npm install -D tailwindcss postcss autoprefixer
+			npx tailwindcss init -p

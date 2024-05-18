@@ -1,0 +1,15 @@
+.sliderimg1{
+    background-image: url("../images/c1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sliderimg2{
+    background-image: url("../images/c2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sliderimg3{
+    background-image: url("../images/c3.jpg");
+    background-size: cover;
+    background-position: center;
+}

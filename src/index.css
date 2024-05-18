@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu .menu-box:hover{
+    width: 32px;
+    height: 32px;
+    background: #000;
+}
+
+
+body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+p{
+  font-family: "Major Mono Display", monospace;
+}
+.cursor{
+  background: linear-gradient(to bottom right, #f700ff, #9900ff);
+  box-shadow: 
+        0 0 80px 10px rgba(243, 45, 45, 0.5), /* Red shadow */
+        0 0 80px 20px rgba(255, 0, 212, 0.5), /* Green shadow */
+        0 0 80px 30px rgba(153, 0, 255, 0.5); /* Blue shadow */
+}
+
+

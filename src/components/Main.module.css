@@ -1,0 +1,100 @@
+.page1_right{
+    perspective: -200px;
+    animation: anim 7s ease-in-out infinite;
+      
+}
+.exp_btn{
+    transition: 0.4s;
+}
+/* model-viewer{
+    background-color: rgb(5, 124, 229);
+    width: 90%;
+    height: 70vh;
+} */
+
+
+
+
+.hero_img{
+    overflow: hidden;
+    height: 100%;
+    svg {
+        
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+    .drone{
+        width: 5rem;
+        height: auto;
+        z-index: 1;
+        position: absolute;
+        top:-3rem;
+        right: 20rem;
+    }
+}
+.hero_img {
+    overflow: hidden;
+    height: 100%;
+  }
+  
+.hero_img svg {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+ .hero_img .drone {
+    width: 5rem;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    top: -3rem;
+    right: 20rem;
+  }
+
+
+
+.page1{
+    background-image: url("../images/bg0.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.page2{
+    background-image: url("../images/nightcity.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.page3{
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes anim {
+    0%{
+        
+        filter: drop-shadow(10px 10px 40px rgba(204, 202, 202, 0.594));
+    }
+    25%{
+        
+        filter: drop-shadow(10px 10px 40px rgba(255, 19, 19, 0.594));
+    }
+    50%{
+        
+        filter: drop-shadow(10px 10px 40px rgba(14, 255, 10, 0.594));
+    }
+    75%{
+        
+        filter: drop-shadow(10px 10px 40px rgba(25, 121, 255, 0.594));
+    }
+    90%{
+        
+        filter: drop-shadow(10px 10px 40px rgba(255, 12, 121, 0.922));
+    }
+    100%{
+       
+        filter: drop-shadow(10px 10px 40px rgba(204, 202, 202, 0.594));
+    }
+}
